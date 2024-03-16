@@ -1,5 +1,4 @@
-let equn = document.querySelector('#equation input');
-let temp = document.querySelector('#temp-result');
+let equn = document.querySelector('.display input');
 let button = document.querySelectorAll('button');
 
 for (let i = 0; i < button.length; i++) {
@@ -77,7 +76,7 @@ function action(evt) {
             equn.value += '0';
             break;
         case ('Enter'):
-            temp.innerHTML = eval(equn.value);
+            equn.value = eval(equn.value);
             break;
     }
 };
