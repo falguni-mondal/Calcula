@@ -33,25 +33,13 @@ main{
     grid-area: 1/1/2/-1;
     background: rgb(246, 251, 255);
     border-radius: 5px;
+    height: 120px;
 }
-.display #equation{
-    height: 60%;
-    font-size: 2rem;
-}
-.display input{
-    text-align: right;
-}
-.display #temp-result{
-    height: 40%;
-    padding: 2%;
-    padding-left: 4%;
-    font-weight: 600;
-    font-size: 1.4rem;
-    justify-content: start;
-}
+
 .display input{
     height: 100%;
     width: 100%;
+    text-align: right;
     background: transparent;
     border: 0px;
     padding: 4%;
@@ -85,7 +73,7 @@ main{
 
 @media (max-width: 600px) {
     #container{
-        height: 80%;
+        height: 70%;
         width: 100%;
     }
 }
